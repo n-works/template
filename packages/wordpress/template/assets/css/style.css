@@ -1,0 +1,5 @@
+@import "./common/normalize.css";
+
+h1 {
+  font-weight: var(--bold);
+}
