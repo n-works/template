@@ -1,0 +1,13 @@
+{
+  "ignoreFiles": [
+    "node_modules/**",
+    "public/**"
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-rational-order"
+  ]
+}
