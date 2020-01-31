@@ -1,11 +1,11 @@
 {
-  "name": "@n-works/create-wordpress",
-  "version": "1.0.1",
+  "name": "@n-works/create-local",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/n-works/template.git",
-    "directory": "packages/wordpress"
+    "directory": "packages/local"
   },
   "bin": {
     "create-wordpress": "index.js"
