@@ -21,7 +21,7 @@ services:
         define( 'WP_SITEURL', $$_SERVER['REQUEST_SCHEME'] . '://' . $$_SERVER['SERVER_NAME'] . '/wp' );
         define( 'WP_HOME', $$_SERVER['REQUEST_SCHEME'] . '://' . $$_SERVER['SERVER_NAME'] );
     env_file:
-      - .env.local
+      - .env
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -37,7 +37,7 @@ services:
       PMA_USER: root
       PMA_PASSWORD: root
     env_file:
-      - .env.local
+      - .env
 
   mysql:
     image: mysql:5.7
@@ -48,7 +48,7 @@ services:
       MYSQL_DATABASE: localdb
       MYSQL_ROOT_PASSWORD: root
     env_file:
-      - .env.local
+      - .env
 
   mailhog:
     image: mailhog/mailhog
@@ -61,7 +61,7 @@ services:
     volumes:
       - mailhog:/tmp
     env_file:
-      - .env.local
+      - .env
 
 volumes:
   phpmyadmin:
