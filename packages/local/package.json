@@ -1,6 +1,6 @@
 {
   "name": "@n-works/create-local",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -8,7 +8,7 @@
     "directory": "packages/local"
   },
   "bin": {
-    "create-wordpress": "index.js"
+    "create-local": "index.js"
   },
   "scripts": {
     "test": "mkdir -p test && cd test && node ../index.js"
