@@ -13,7 +13,7 @@ fs.readdirSync(basePath, { withFileTypes: true })
 
     fs.copySync(srcPath, distPath, { overwrite: false })
 
-    if (dirent.name === '.env.assets') {
+    if (dirent.name === '.env.assets' || dirent.name === 'README.md') {
       fs.writeFileSync(distPath, fs.readFileSync(distPath, 'utf-8')
         .replace(/{{ PROJECT_NAME }}/g, projectName), 'utf-8')
     }
