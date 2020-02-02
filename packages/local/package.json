@@ -14,6 +14,7 @@
     "test": "mkdir -p test && cd test && node ../index.js"
   },
   "dependencies": {
-    "fs-extra": "^8.1.0"
+    "fs-extra": "^8.1.0",
+    "prompts": "^2.3.0"
   }
 }
