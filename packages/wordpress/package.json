@@ -1,6 +1,6 @@
 {
   "name": "@n-works/create-wordpress",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,6 +14,6 @@
     "test": "mkdir -p test && cd test && node ../index.js"
   },
   "dependencies": {
-    "fs-extra": "^8.1.0"
+    "prompts": "^2.3.0"
   }
 }

@@ -1,12 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "dev": "assets-builder -s -p localhost",
-    "build": "assets-builder"
+    "dev": "asset-builder -p localhost",
+    "build": "asset-builder"
   },
   "dependencies": {
-    "@babel/core": "^7.8.3",
-    "@n-works/assets-builder": "^1.0.6"
+    "@n-works/asset-builder": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
