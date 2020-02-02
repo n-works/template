@@ -5,19 +5,19 @@
 * [Yarn](https://legacy.yarnpkg.com/ja/)
 * [Docker](https://www.docker.com/products/docker-desktop)
 
-## 最初にnpmパッケージをインストール
+## npmパッケージをインストール (初回のみ)
 ```
 yarn
-```
-
-## アセットをビルド (`Ctrl+C`で終了)
-```
-yarn dev
 ```
 
 ## Dockerコンテナを起動
 ```
 docker-compose up -d
+```
+
+## 開発サーバを起動 (`Ctrl+C`で終了)
+```
+yarn dev
 ```
 
 ## Dockerコンテナのデータベースを保存
