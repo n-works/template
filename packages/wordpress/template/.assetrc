@@ -1,0 +1,22 @@
+{
+  "src": "assets",
+  "dist": "public/wp/wp-content/themes/sample/assets",
+  "directories": {
+    "html": [],
+    "css": ["css"],
+    "js": ["js"],
+    "vue": [],
+    "image": ["img"]
+  },
+  "cache": true,
+  "minify": true,
+  "sourcemaps": false,
+  "imageQuality": {
+    "jpeg": 70,
+    "png": 70,
+    "webp": 70
+  },
+  "extraWatchPatterns": [
+    "public/wp/wp-content/themes/**/*.php"
+  ]
+}

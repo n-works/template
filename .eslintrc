@@ -1,12 +1,14 @@
 {
   "ignorePatterns": [
-    "node_modules"
+    "node_modules",
+    "dist"
   ],
   "env": {
     "browser": true,
     "node": true
   },
   "plugins": [
+    "html",
     "vue"
   ],
   "extends": [
