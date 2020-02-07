@@ -1,7 +1,4 @@
 {
-  "ignoreFiles": [
-    "node_modules/**"
-  ],
   "plugins": [
     "stylelint-order"
   ],
