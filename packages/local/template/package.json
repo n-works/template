@@ -5,9 +5,9 @@
     "build": "asset-builder"
   },
   "dependencies": {
-    "@n-works/asset-builder": "^1.1.0"
+    "@n-works/asset-builder": "^1.2.0"
   },
   "devDependencies": {
-    "@n-works/lint": "^1.0.0"
+    "@n-works/lint": "^1.1.0"
   }
 }

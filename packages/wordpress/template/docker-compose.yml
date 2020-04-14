@@ -20,8 +20,6 @@ services:
       WORDPRESS_CONFIG_EXTRA: |
         define( 'WP_SITEURL', $$_SERVER['REQUEST_SCHEME'] . '://' . $$_SERVER['SERVER_NAME'] . '/wp' );
         define( 'WP_HOME', $$_SERVER['REQUEST_SCHEME'] . '://' . $$_SERVER['SERVER_NAME'] );
-    env_file:
-      - .env
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -36,8 +34,6 @@ services:
       PMA_HOST: mysql
       PMA_USER: root
       PMA_PASSWORD: root
-    env_file:
-      - .env
 
   mysql:
     image: mysql:5.7
@@ -47,8 +43,6 @@ services:
     environment:
       MYSQL_DATABASE: localdb
       MYSQL_ROOT_PASSWORD: root
-    env_file:
-      - .env
 
   mailhog:
     image: mailhog/mailhog
@@ -60,8 +54,6 @@ services:
       MH_MAILDIR_PATH: /tmp
     volumes:
       - mailhog:/tmp
-    env_file:
-      - .env
 
 volumes:
   phpmyadmin:
